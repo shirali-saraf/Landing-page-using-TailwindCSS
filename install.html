@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="h-[100vh] w-[100vw] bg-[url('./image/image.png')] bg-cover"> 
+            <div class="flex md:justify-items-end flex-col md:flex-row">
+                <div class="md:flex-auto w-full justify-center">
+                    <div class="justify-center"><img src="./image/logo.png" class="h-14 w-30 md:ml-16 pt-5 "></div>
+                </div>
+                <div class="md:justify-items-end ">
+                    <ul class="text-slate-50 flex text-lg mr-5 justify-center">
+                        <li class="px-8 py-5 hover:text-blue-200 cursor-pointer">Home</li>
+                        <li class="px-8 py-5 hover:text-blue-200 cursor-pointer">About</li>
+                        <li class="px-8 py-5 hover:text-blue-200 cursor-pointer">Features</li>
+                        <li class="px-8 py-5 hover:text-blue-200 cursor-pointer">Contact</li>
+                        <!-- <li><img src="./image/cart.png " class="h-5 w-5 mr-14 py-5"></li> -->
+                    </ul>
+                </div>
+                <!-- <div class=" mr-14 py-5">
+                    <img src="./image/cart.png " class="h-5 w-5">
+                </div> -->
+            </div>
+            <div class="flex w-full h-[100vh]" >
+                <div class="text-slate-50 break-normal md:p-28 m-10 md:w-1/2 w-1/2 p-10"><p class="font-bold text-3xl">Groceries</p>
+                    <p class="font-bold md:text-3xl text-xl">delivery in 15 mins</p>
+                    <p>Grocery offers a wide range of products,including<br>
+                        fresh products,meats,dairy,baked goods and non-perishable items.
+                    </p>
+                    <button class="py-2 mt-2 px-8 bg-blue-200 text-black hover:bg-blue-400 rounded-md ">Order Now</button>
+                </div>
+
+                <div class="">
+                    <img src="./image/grocery-image.png" class=" md:h-[90vh] h-[80vh] md:pr-10 pr-2 sm:[40vh]">
+                </div> 
+                
+            </div>
+
+        </div>
+        <div class="flex w-[100vw] bg-[url('./image/shopping.avif')] border-4 border-black bg-cover md:flex-row flex-col">
+            <div class="md:w-[20vw] font-bold text-4xl md:border-r-2 border-b-2 border-black px-10 py-14 items-center flex justify-center">
+              <p>About Us</p>
+            </div>
+            <div class="md:w-[80vw] w-[100vw] md:px-10 p-5 py-14 flex-wrap break-normal font-bold flex justify-center">
+                <p>Grocify is India’s most pioneering and significant modern retailer for fresh food and groceries. We offer our customers a wide range of daily essentials, fresh produce, poultry and a host of exclusive TATA brands at great value. STAR is present across 48 stores in Mumbai, Pune, Bangalore, Kolhapur and Hyderabad.
+
+                    Grocify is now the sourcing partner for StarQuik and has now truly become Omni-channel, offering customers the convenience of ordering groceries online and getting it delivered to their homes.
+                    
+                    Our signature customer first approach has helped us gain immense customer loyalty. Our care and empathy also extends to our employees, which is why we have a diverse workforce with a special focus on hiring specially-abled colleagues.
+                    <br>
+                    Grocify stores are present in two different formats -
+                    <br>
+                    • Grocify HYPER
+                    Grocify Hyper is a hypermarket format store that deals in diverse product categories including food and grocery, fresh produce, bakery, beauty, home needs and more. It also offers wide range in apparel and footwear under the brand 'Zudio'.
+                    <br>
+                    • Grocify MARKET
+                    Grocify Market is a supermarket format store positioned as a one-stop shop for fulfilling our customers’ monthly & top-up needs for groceries, fresh produce, FMCG products, personal grooming and general merchandise.
+                    <br>
+                    With open doors and hearts, we're eager to welcome you to our stores.
+                    <br>
+                    • VISION
+                    To become a pioneer in multi-channel retail in all the regions we serve!
+                    <br>
+                    • MISSION
+                    Helping our customers live a better life by always giving them better savings, better quality and better choice!
+                    <br>
+                    • VALUES
+                    Responsibility | Integrity | Pioneering | Unity | Excellence</p>
+            </div>
+        </div>
+
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                    <input type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit" class="text-sm font-medium text-center py-2 mt-2 px-8 bg-blue-300 text-black hover:bg-blue-400 rounded-md  sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-">Send message</button>
+            </form>
+        </div>
+        
+
+    </div>
+</body>
+</html>
